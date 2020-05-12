@@ -82,9 +82,9 @@ Once you've saved the client_secret.json file into app/config, you should be abl
 ```http://localhost:5000/authorize``` will take you through the Oauth2 flow and save the credentials in a Redis Session which will then allow you to make requests to the Gmail api. The app was originally configured to accept a JWT minted by a separate service, so many of the routes are currently being re-worked to use a more encapsulated authentication strategy and are in various states of (dis)functionality.
 
 ## Wish List / ToDo
-- [] Roll basic encapsulated auth strategy (in progress)
-- [] Add hooks for other auth strategies
-- [] Refactor the comm_node -> graph_node process
-- [] Template routes to serve pages with D3.js
-- [] Better launch script
-- [] Containerized Sanic
+- [ ] Roll basic encapsulated auth strategy (in progress)
+- [ ] Add hooks for other auth strategies
+- [ ] Refactor the comm_node -> graph_node process
+- [ ] Template routes to serve pages with D3.js
+- [ ] Better launch script
+- [ ] Containerized Sanic
