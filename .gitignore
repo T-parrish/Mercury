@@ -1,0 +1,4 @@
+env/prod.sh
+__pycache__*
+client_secret.json
+*.pyc

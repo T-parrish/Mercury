@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:12.1
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: rofl-copters
+    volumes:
+      - "pgdata:/var/lib/postgresql/data"
+    ports:
+      - "127.0.0.1:5432:5432"
+
+  redis:
+    image: redis:5
+    restart: always
+    ports:
+      - "127.0.0.1:6379:6379"
+    command: redis-server --save '' --appendonly no
+
+volumes:
+  pgdata:
