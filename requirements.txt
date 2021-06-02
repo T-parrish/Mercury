@@ -72,7 +72,7 @@ tqdm==4.41.1
 typed-ast==1.4.0
 ujson==1.35
 uritemplate==3.0.0
-urllib3==1.25.7
+urllib3==1.26.5
 uvicorn==0.11.2
 uvloop==0.14.0
 wasabi==0.5.0
