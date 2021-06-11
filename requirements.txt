@@ -76,7 +76,7 @@ urllib3==1.25.7
 uvicorn==0.11.2
 uvloop==0.14.0
 wasabi==0.5.0
-websockets==8.1
+websockets==9.1
 wrapt==1.11.2
 yarl==1.4.2
 zipp==0.6.0
